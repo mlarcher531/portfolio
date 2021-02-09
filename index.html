@@ -128,19 +128,22 @@
 
         <section id="contact">
             <h1>CONTACT</h1>
-            <div class="form">
+            <form class="form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                 <div class="form-top">
-                    <input type="text" class="name" placeholder="Name">
-                    <input type="email" class="email" placeholder="Email Address">
+                    <input type="text" class="name" placeholder="Name" name="name">
+                    <input type="email" class="email" placeholder="Email Address" name="email">
                 </div>
                 <div class="form-mid">
-                    <input type="text" class="name" placeholder="Subject">
+                    <input type="text" class="name" placeholder="Subject" name="subject">
                 </div>
                 <div class="form-bottom">
-                    <textarea type="text" class="message" placeholder="Enter Message"></textarea>
+                    <textarea type="text" class="message" placeholder="Enter Message" name="message"></textarea>
+                    <div class="captcha">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
                     <button type="submit" class="submit"> Contact Me! </button>
                 </div>
-            </div>
+            </form>
         </section>
     </main>
     <footer>
