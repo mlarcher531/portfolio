@@ -499,5 +499,8 @@ textarea:focus, input:focus{
         flex-direction: column;
     }
 
+    .footer {
+        flex-direction: column;
+    }
 
   }
