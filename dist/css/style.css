@@ -512,4 +512,8 @@ textarea:focus, input:focus{
         width: 40vw;
     }
 
+    .projects img{
+        width: 60vw;
+    }
+
   }
