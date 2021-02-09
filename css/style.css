@@ -6,11 +6,12 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     background: url('/images/htx.jpeg') no-repeat center center/cover;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(12, 143, 219, 0.507);
     background-blend-mode: screen;
     height: 60vh;
@@ -120,11 +121,13 @@ header p {
 }
 
 #about h3 {
+    font-family: 'Open Sans', sans-serif;
     color: rgb(224, 201, 97);
     padding-bottom: 1.6rem;
 }
 
 #about p {
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.8rem;
     width: 50vw;
     font-size: 1.3rem;
@@ -167,4 +170,34 @@ span {
 .badges > div {
     border-top: solid 4px  #fff;
     border-bottom: solid 4px  #fff;
+}
+
+.sm-badges-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-badges-container a{
+    text-decoration: none;
+}
+.sm-badge {
+    background: rgba(112, 128, 144, 0.6);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 5vw;
+    transition: all 0.5s ease
+}
+
+.sm-badge:hover{
+    background: rgba(14, 16, 19, 0.6);
+}
+
+.sm-badge i{
+    color: #fff
 }
