@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -73,6 +74,7 @@ header p {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    /* flex-wrap: wrap; */
     height: 40vh;
     padding-top: 80px;
 }
@@ -84,12 +86,21 @@ header p {
 }
 
 .circle {
-    background: slategray;
+    background: rgba(112, 128, 144, 0.6);
     height: 150px;
     width: 150px;
     border-radius: 50%;
     margin: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.circle i{
+    color: #fff;
+}
+
+
 
 .about {
     display: flex;
@@ -142,7 +153,7 @@ span {
 }
 
 #work h3{
-    margin-top: 8vh;
+    margin-top: 5vh;
     margin-bottom: 3vh;
     color: steelblue
 }
@@ -154,6 +165,6 @@ span {
 }
 
 .badges > div {
-    border-top: solid 4px steelblue;
-    border-bottom: solid 4px steelblue
+    border-top: solid 4px  #fff;
+    border-bottom: solid 4px  #fff;
 }
