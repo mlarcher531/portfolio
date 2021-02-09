@@ -497,19 +497,29 @@ textarea:focus, input:focus{
 
     .form-top{
         flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .form-top input{
+        height: 32px;
+        flex: 0;
     }
 
     .footer {
         flex-direction: column;
         height: 45vh;
     }
+
+    .footer p {
+        margin-top: 30px;
+    }
     .footer .social{
         flex-direction: column;
-        
     }
 
-    .captcha > div{
-        align-self: center;
+    .captcha {
+        display: none;
     }
 
     .projects img{
