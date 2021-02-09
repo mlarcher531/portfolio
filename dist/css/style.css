@@ -509,7 +509,7 @@ textarea:focus, input:focus{
     }
 
     .captcha > div{
-        width: 40vw;
+        align-self: center;
     }
 
     .projects img{
