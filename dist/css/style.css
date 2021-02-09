@@ -495,15 +495,14 @@ textarea:focus, input:focus{
         margin: 5px 5px;
     }
 
-    .form-top{
-        flex-direction: column;
-        width: 100%;
-        height: fit-content;
+    .form {
+        width: 80vw;;
     }
 
-    .form-top input{
-        height: 32px;
-        flex: 0;
+    .form-top{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .footer {
