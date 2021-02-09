@@ -501,11 +501,15 @@ textarea:focus, input:focus{
 
     .footer {
         flex-direction: column;
-        height: 60vh;
+        height: 45vh;
     }
     .footer .social{
         flex-direction: column;
         
+    }
+
+    .captcha{
+        width: 40vw;
     }
 
   }
