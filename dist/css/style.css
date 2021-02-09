@@ -508,7 +508,7 @@ textarea:focus, input:focus{
         
     }
 
-    .captcha{
+    .captcha > div{
         width: 40vw;
     }
 
