@@ -434,3 +434,7 @@ textarea:focus, input:focus{
     margin: 0 2rem;
     font-size: 2rem;
 }
+
+.captcha {
+    margin-left: 15px;
+}
