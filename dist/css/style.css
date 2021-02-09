@@ -502,5 +502,8 @@ textarea:focus, input:focus{
     .footer {
         flex-direction: column;
     }
+    .social{
+        flex-direction: column;
+    }
 
   }
