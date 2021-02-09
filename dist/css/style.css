@@ -501,9 +501,11 @@ textarea:focus, input:focus{
 
     .footer {
         flex-direction: column;
+        height: 60vh;
     }
-    .social{
+    .footer .social{
         flex-direction: column;
+        
     }
 
   }
