@@ -133,7 +133,8 @@ header p {
 
 #about h3 {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(224, 201, 97);
+    /* color: rgb(224, 201, 97); */
+    color: rgb(247, 247, 247);
     padding-bottom: 1.6rem;
     /* font-size: 1.4rem; */
 }
@@ -155,7 +156,7 @@ header p {
 }
 
 span {
-    color: rgb(224, 201, 97);
+    color: rgb(238, 222, 177);
     font-weight: bold;
 }
 
